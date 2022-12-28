@@ -1,0 +1,15 @@
+{
+  "plugins": ["stylelint-scss", "stylelint-prettier", "stylelint-order"],
+  "rules": {
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": true,
+    "prettier/prettier": true,
+    "selector-class-pattern": ""
+  },
+  "extends": [
+    "stylelint-config-recommended",
+    "stylelint-prettier/recommended",
+    "stylelint-config-sass-guidelines",
+    "stylelint-config-css-modules"
+  ]
+}

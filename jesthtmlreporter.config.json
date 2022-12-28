@@ -1,0 +1,7 @@
+{
+  "pageTitle": "Test Report",
+  "outputPath": "test-report/index.html",
+  "includeFailureMsg": false,
+  "statusIgnoreFilter": "pending",
+  "styleOverridePath": "test-report.css"
+}
