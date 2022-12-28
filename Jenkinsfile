@@ -7,8 +7,10 @@ pipeline {
     }
     stages {
         stage("env") {
-            script {
-                sh 'printenv'
+            steps {
+                script {
+                    sh 'printenv'
+                }
             }
         }
     }
